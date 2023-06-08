@@ -137,6 +137,3 @@ def main(args=None):
     rclpy.init(args=args)
     rclpy.spin(MoveNode("move_node"))
     rclpy.shutdown()
-
-
-main()

@@ -18,6 +18,8 @@ setup(
     license="TODO: License declaration",
     tests_require=["pytest"],
     entry_points={
-        "console_scripts": [],
+        "console_scripts": [
+            "move_node = motion_service_demo.move_node:main",
+        ],
     },
 )
